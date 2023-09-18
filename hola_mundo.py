@@ -35,8 +35,8 @@ class BackgroundRemover:
         os.rename(inp_path, new_path)
 
 if __name__ == "__main__":
-    input_folder = "input"
-    output_folder = "output"
+    input_folder = "entrada"
+    output_folder = "salida"
 
     removeb = BackgroundRemover(input_folder, output_folder)
     removeb.processing_images()
